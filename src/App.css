@@ -1,0 +1,188 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Heading{
+      text-align: center;
+    background-color: #00a07d; 
+    color: rgb(255, 255, 255);
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+  body {
+    background-color: rgb(242, 243, 247);
+    color: #5d5f68;
+    opacity: 0.9;
+    font-family: "Nunito", sans-serif;
+    margin: 0px;
+  }
+  .wholepage {
+    display: flex;
+  }
+
+  .procontainer{
+    background-color: rgb(28, 52, 192);
+    text-align: center;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 14px;
+    color: #c2c7c2;
+  }
+  .proimage{
+    width: 3rem;
+  }
+  .probutton{
+    margin-top: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #1ca301;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 00.5rem;
+  }
+  .probutton:focus{
+    border: 3px solid rgb(28, 123, 128);
+  }
+  .navtogglebutton{
+    color: #2758e9;
+    border: none;
+    background: white;
+    cursor: pointer;
+    padding: 0.3rem;
+    display: block;
+  }
+  .navtogglebutton:focus{
+    border-radius: 50%;
+    border: 3px solid rgb(196, 212, 218);
+  }
+  .navtogglebutton:hover{
+    background: rgb(207, 204, 204);
+    border-radius: 50%;
+  }
+  .container {
+    margin: 2rem;
+    min-height: 100vh;
+  }
+  hr {
+    opacity: 0.2;
+  }
+  .link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+  .link:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .link:focus {
+    color: #ffffff;
+  }
+  
+  .nav-dashboard {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0.5rem 0 ;
+  }
+  .nav-list-users {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  .dashboard-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+  .dashboard-content{
+    background-color: #00a07d;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0.5rem ;
+    border-radius: 0.5rem;
+    width: fit-content;
+    margin: auto;
+  }
+  .dashboard-content:hover{
+    text-decoration: none;
+  }
+  .new-input-boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+  .input-box{
+    padding: 0.6rem;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid rgb(194, 200, 201);
+    font-size: medium;
+  }
+  .input-box:focus{
+    border: 3px solid rgb(160, 196, 202);
+  }
+  .name-input{
+    width: 10rem;
+  }
+  .input-button{
+    font-size: larger;
+    border: none;
+  }
+  .list-users{
+    display: grid;
+    grid-template-areas: "a b c d";
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  .card{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 8px;
+    color: #000000;
+  }
+  img{
+    border-radius: 6px;
+  }
+  .username{
+    font-weight: bold;
+    font-size: larger;
+  }
+  .list-buttons{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  button{
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: #2dabd1;
+    border-radius: 8px;
+    border:none;
+    font-size: medium;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  .delete-button{
+    background-color: crimson;
+  }
+  .profile-button{
+    background-color: #2758e9;
+  }
+  .profile-page{
+    display: grid;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .edit-profile-button{
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: larger;
+    margin: auto;
+  }
